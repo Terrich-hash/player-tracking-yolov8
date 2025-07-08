@@ -63,20 +63,31 @@ player-tracking-yolov8/
 ▶️ How to Run the Code
 
 Clone or download the repo:
+
 git clone https://github.com/your-username/player-tracking-yolov8.git
+
 cd player-tracking-yolov8
+
 Place your trained YOLOv8 model (e.g. best.pt) in the project folder.
+
 Place a test video (video.mp4) in the same folder.
+
 Run the script:
+
 python player_tracking.py
+
 Press q to stop the video stream.
+
 ⚙️ Optional Configs
 
 📹 Use Webcam Instead of Video
+
 Edit this line in player_tracking.py:
 
 video_source = 0  # 0 for default webcam
+
 📋 Log Player Positions
+
 If logging is enabled, the output will be saved to:
 
 player_tracking_log.csv
