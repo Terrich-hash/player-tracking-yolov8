@@ -64,7 +64,7 @@ player-tracking-yolov8/
 
 Clone or download the repo:
 
-git clone https://github.com/your-username/player-tracking-yolov8.git
+git clone https://github.com/Terrich-hash/player-tracking-yolov8.git
 
 cd player-tracking-yolov8
 
