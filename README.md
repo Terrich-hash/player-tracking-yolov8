@@ -3,27 +3,37 @@
 
 ✅ Software & Environment
 Python: 3.8 to 3.11
+
 pip: Python package installer
+
 OS: Windows / Linux / macOS
+
 Hardware: GPU recommended (but works on CPU with lower speed)
+
 📦 Dependencies
 
 Install the following Python libraries:
 
 pip install ultralytics opencv-python
+
 If you also want CSV logging or advanced filtering:
 
 pip install pandas
+
 To optionally use Jupyter Notebooks (for exploration):
 
 pip install jupyter
+
 If you're using a virtual environment (recommended):
 
 python -m venv venv
+
 source venv/bin/activate       # Linux/macOS
+
 venv\Scripts\activate.bat      # Windows
 
 pip install -r requirements.txt
+
 📄 requirements.txt (optional)
 
 Create a file named requirements.txt with the following content:
