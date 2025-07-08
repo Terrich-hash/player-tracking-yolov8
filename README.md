@@ -37,12 +37,19 @@ pip install -r requirements.txt
 🔧 Folder Structure Example
 
 player-tracking-yolov8/
+
 ├── player_tracking.py
-├── best.pt                 # Your YOLOv8 trained model
-├── video.mp4               # Input video
+
+├── best.pt       # Your YOLOv8 trained model
+
+├── video.mp4  # Input video
+
 ├── player_tracking_log.csv # (auto-created)
+
 ├── requirements.txt
+
 ├── README.md
+
 ▶️ How to Run the Code
 
 Clone or download the repo:
